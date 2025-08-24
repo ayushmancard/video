@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoEnhance Pro - AI-Powered Video Quality Enhancement</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-video"></i>
+                <span>VideoEnhance Pro</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#upload">Upload</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Transform Your Videos with
+                <span class="gradient-text">AI-Powered Enhancement</span>
+            </h1>
+            <p class="hero-description">
+                Upscale, denoise, and enhance your videos with cutting-edge AI technology. 
+                Get professional-quality results in minutes, not hours.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToUpload()">
+                    <i class="fas fa-upload"></i>
+                    Start Enhancing
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToFeatures()">
+                    <i class="fas fa-play"></i>
+                    See Demo
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="video-preview">
+                <div class="video-before">
+                    <span>Before</span>
+                    <div class="video-placeholder">
+                        <i class="fas fa-video"></i>
+                        <p>Low Quality</p>
+                    </div>
+                </div>
+                <div class="enhancement-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="video-after">
+                    <span>After</span>
+                    <div class="video-placeholder enhanced">
+                        <i class="fas fa-video"></i>
+                        <p>Enhanced Quality</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Enhancement Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <h3>AI Upscaling</h3>
+                    <p>Increase resolution by 2x or 4x while maintaining sharp details and natural textures.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Noise Reduction</h3>
+                    <p>Remove grain, artifacts, and unwanted noise for cleaner, more professional videos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-adjust"></i>
+                    </div>
+                    <h3>Color Enhancement</h3>
+                    <p>Improve color saturation, contrast, and brightness for more vibrant visuals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Sharpening</h3>
+                    <p>Enhance edge definition and overall clarity for crisp, detailed footage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Upload Your Video</h3>
+                        <p>Drag and drop your video file or click to browse. Supports MP4, AVI, MOV, and more.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Choose Enhancement Options</h3>
+                        <p>Select upscaling factor, enable noise reduction, sharpening, and color enhancement.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>AI Processing</h3>
+                        <p>Our advanced AI algorithms analyze and enhance your video frame by frame.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Download Enhanced Video</h3>
+                        <p>Get your professionally enhanced video ready for sharing or further editing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload" class="upload-section">
+        <div class="container">
+            <h2 class="section-title">Upload Your Video</h2>
+            
+            <!-- Upload Area -->
+            <div class="upload-container" id="uploadContainer">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Drag & Drop Your Video Here</h3>
+                    <p>or click to browse files</p>
+                    <input type="file" id="videoInput" accept="video/*" hidden>
+                    <div class="supported-formats">
+                        <small>Supported formats: MP4, AVI, MOV, MKV, WebM (Max: 500MB)</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enhancement Options -->
+            <div class="options-panel" id="optionsPanel" style="display: none;">
+                <h3>Enhancement Options</h3>
+                <div class="options-grid">
+                    <div class="option-group">
+                        <label for="scaleSelect">Upscaling Factor</label>
+                        <select id="scaleSelect">
+                            <option value="1">No upscaling</option>
+                            <option value="2" selected>2x (Recommended)</option>
+                            <option value="4">4x (High quality)</option>
+                        </select>
+                    </div>
+                    <div class="option-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="denoiseCheck" checked>
+                            <span class="checkmark"></span>
+                            Noise Reduction
+                        </label>
+                    </div>
+                    <div class="option-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="sharpenCheck" checked>
+                            <span class="checkmark"></span>
+                            Sharpening
+                        </label>
+                    </div>
+                    <div class="option-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enhanceColorsCheck" checked>
+                            <span class="checkmark"></span>
+                            Color Enhancement
+                        </label>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="processBtn">
+                    <i class="fas fa-magic"></i>
+                    Start Enhancement
+                </button>
+            </div>
+
+            <!-- Progress Section -->
+            <div class="progress-section" id="progressSection" style="display: none;">
+                <h3>Processing Your Video</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-info">
+                    <span id="progressText">Uploading...</span>
+                    <span id="progressPercent">0%</span>
+                </div>
+                <div class="processing-status" id="processingStatus">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Please wait while we enhance your video...</span>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <h3>Enhancement Complete!</h3>
+                <div class="results-info">
+                    <p>Your video has been successfully enhanced and is ready for download.</p>
+                </div>
+                <div class="results-actions">
+                    <button class="btn btn-primary" id="downloadBtn">
+                        <i class="fas fa-download"></i>
+                        Download Enhanced Video
+                    </button>
+                    <button class="btn btn-secondary" id="newVideoBtn">
+                        <i class="fas fa-plus"></i>
+                        Enhance Another Video
+                    </button>
+                </div>
+            </div>
+
+            <!-- Error Section -->
+            <div class="error-section" id="errorSection" style="display: none;">
+                <div class="error-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Processing Error</h3>
+                    <p id="errorMessage">An error occurred while processing your video.</p>
+                    <button class="btn btn-secondary" id="retryBtn">
+                        <i class="fas fa-redo"></i>
+                        Try Again
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-video"></i>
+                    <span>VideoEnhance Pro</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VideoEnhance Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
