@@ -1,0 +1,583 @@
+nohup: ignoring input
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://169.254.0.21:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 547-069-814
+127.0.0.1 - - [23/Aug/2025 10:40:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2025 10:40:12] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2025 10:40:12] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2025 10:40:13] "GET /favicon.ico HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:03] "GET / HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:03] "GET /styles.css HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:03] "GET /script.js HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:03] "GET /favicon.ico HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:56] "HEAD / HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:47:56] "GET / HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:49:10] "GET / HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:49:11] "GET /script.js HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:49:11] "GET /styles.css HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:49:13] "GET /favicon.ico HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:12] "POST /api/video/upload HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:13] "POST /api/video/process/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:15] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:17] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:19] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:21] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:23] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:25] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:27] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:29] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:31] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:33] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:52:36] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:53:45] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "GET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:54:37] "DELETE /api/video/cleanup/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1" 200 -
+Exception in thread Thread-18 (process_video_background):
+Traceback (most recent call last):
+  File "/home/ubuntu/video-enhancer/src/utils/video_processor.py", line 110, in enhance_video
+    raise Exception(f'FFmpeg error: {stderr}')
+Exception: FFmpeg error: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/video_uploads/3fbc1a07-903d-45d1-a9ec-06c801e881f9.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.4.100
+  Duration: 00:00:13.49, start: 0.000000, bitrate: 1686 kb/s
+  Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 720x1280 [SAR 1:1 DAR 9:16], 1556 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0x55a2248d1440] using SAR=1/1
+[libx264 @ 0x55a2248d1440] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x55a2248d1440] profile High, level 6.0, 4:2:0, 8-bit
+[libx264 @ 0x55a2248d1440] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/tmp/video_processed/3fbc1a07-903d-45d1-a9ec-06c801e881f9_enhanced.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.76.100
+  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2880x5120 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc58.134.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc58.134.100 aac
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.06 bitrate=   5.5kbits/s speed=2.38x    
+frame=    2 fps=0.0 q=0.0 size=       0kB time=00:00:00.13 bitrate=   2.8kbits/s speed=0.25x    
+frame=    5 fps=4.5 q=0.0 size=       0kB time=00:00:00.23 bitrate=   1.7kbits/s speed=0.21x    
+frame=    9 fps=5.1 q=0.0 size=       0kB time=00:00:00.37 bitrate=   1.0kbits/s speed=0.211x    
+frame=   13 fps=5.5 q=0.0 size=       0kB time=00:00:00.48 bitrate=   0.8kbits/s speed=0.205x    
+frame=   17 fps=5.6 q=0.0 size=       0kB time=00:00:00.62 bitrate=   0.6kbits/s speed=0.206x    
+frame=   21 fps=5.8 q=0.0 size=       0kB time=00:00:00.76 bitrate=   0.5kbits/s speed=0.21x    
+frame=   24 fps=5.8 q=0.0 size=       0kB time=00:00:00.88 bitrate=   0.4kbits/s speed=0.213x    
+frame=   28 fps=5.7 q=0.0 size=       0kB time=00:00:00.99 bitrate=   0.4kbits/s speed=0.204x    
+frame=   31 fps=5.6 q=0.0 size=       0kB time=00:00:01.09 bitrate=   0.4kbits/s speed=0.196x    
+frame=   34 fps=5.3 q=0.0 size=       0kB time=00:00:01.20 bitrate=   0.3kbits/s speed=0.188x    
+frame=   37 fps=5.2 q=0.0 size=       0kB time=00:00:01.30 bitrate=   0.3kbits/s speed=0.184x    
+frame=   40 fps=5.2 q=0.0 size=       0kB time=00:00:01.39 bitrate=   0.3kbits/s speed=0.182x    
+frame=   43 fps=5.2 q=0.0 size=       0kB time=00:00:01.50 bitrate=   0.3kbits/s speed=0.183x    
+frame=   46 fps=3.2 q=0.0 size=       0kB time=00:00:01.60 bitrate=   0.2kbits/s speed=0.11x    
+frame=   48 fps=3.2 q=0.0 size=       0kB time=00:00:01.67 bitrate=   0.2kbits/s speed=0.11x    
+frame=   50 fps=3.2 q=0.0 size=       0kB time=00:00:01.74 bitrate=   0.2kbits/s speed=0.11x    
+frame=   52 fps=2.9 q=24.0 size=     768kB time=00:00:01.78 bitrate=3519.1kbits/s speed= 0.1x    
+frame=   53 fps=2.7 q=24.0 size=     768kB time=00:00:01.83 bitrate=3430.0kbits/s speed=0.0928x    
+frame=   55 fps=2.6 q=24.0 size=    1024kB time=00:00:01.90 bitrate=4405.9kbits/s speed=0.0895x    
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/video-enhancer/src/routes/video.py", line 142, in process_video_background
+    enhance_video(input_file, output_file, options, upload_id, processing_status)
+  File "/home/ubuntu/video-enhancer/src/utils/video_processor.py", line 120, in enhance_video
+    raise Exception(f'Video processing failed: {str(e)}')
+Exception: Video processing failed: FFmpeg error: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/video_uploads/3fbc1a07-903d-45d1-a9ec-06c801e881f9.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.4.100
+  Duration: 00:00:13.49, start: 0.000000, bitrate: 1686 kb/s
+  Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 720x1280 [SAR 1:1 DAR 9:16], 1556 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0x55a2248d1440] using SAR=1/1
+[libx264 @ 0x55a2248d1440] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x55a2248d1440] profile High, level 6.0, 4:2:0, 8-bit
+[libx264 @ 0x55a2248d1440] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/tmp/video_processed/3fbc1a07-903d-45d1-a9ec-06c801e881f9_enhanced.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.76.100
+  Stream #0:0(und): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 2880x5120 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc58.134.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc58.134.100 aac
+frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.06 bitrate=   5.5kbits/s speed=2.38x    
+frame=    2 fps=0.0 q=0.0 size=       0kB time=00:00:00.13 bitrate=   2.8kbits/s speed=0.25x    
+frame=    5 fps=4.5 q=0.0 size=       0kB time=00:00:00.23 bitrate=   1.7kbits/s speed=0.21x    
+frame=    9 fps=5.1 q=0.0 size=       0kB time=00:00:00.37 bitrate=   1.0kbits/s speed=0.211x    
+frame=   13 fps=5.5 q=0.0 size=       0kB time=00:00:00.48 bitrate=   0.8kbits/s speed=0.205x    
+frame=   17 fps=5.6 q=0.0 size=       0kB time=00:00:00.62 bitrate=   0.6kbits/s speed=0.206x    
+frame=   21 fps=5.8 q=0.0 size=       0kB time=00:00:00.76 bitrate=   0.5kbits/s speed=0.21x    
+frame=   24 fps=5.8 q=0.0 size=       0kB time=00:00:00.88 bitrate=   0.4kbits/s speed=0.213x    
+frame=   28 fps=5.7 q=0.0 size=       0kB time=00:00:00.99 bitrate=   0.4kbits/s speed=0.204x    
+frame=   31 fps=5.6 q=0.0 size=       0kB time=00:00:01.09 bitrate=   0.4kbits/s speed=0.196x    
+frame=   34 fps=5.3 q=0.0 size=       0kB time=00:00:01.20 bitrate=   0.3kbits/s speed=0.188x    
+frame=   37 fps=5.2 q=0.0 size=       0kB time=00:00:01.30 bitrate=   0.3kbits/s speed=0.184x    
+frame=   40 fps=5.2 q=0.0 size=       0kB time=00:00:01.39 bitrate=   0.3kbits/s speed=0.182x    
+frame=   43 fps=5.2 q=0.0 size=       0kB time=00:00:01.50 bitrate=   0.3kbits/s speed=0.183x    
+frame=   46 fps=3.2 q=0.0 size=       0kB time=00:00:01.60 bitrate=   0.2kbits/s speed=0.11x    
+frame=   48 fps=3.2 q=0.0 size=       0kB time=00:00:01.67 bitrate=   0.2kbits/s speed=0.11x    
+frame=   50 fps=3.2 q=0.0 size=       0kB time=00:00:01.74 bitrate=   0.2kbits/s speed=0.11x    
+frame=   52 fps=2.9 q=24.0 size=     768kB time=00:00:01.78 bitrate=3519.1kbits/s speed= 0.1x    
+frame=   53 fps=2.7 q=24.0 size=     768kB time=00:00:01.83 bitrate=3430.0kbits/s speed=0.0928x    
+frame=   55 fps=2.6 q=24.0 size=    1024kB time=00:00:01.90 bitrate=4405.9kbits/s speed=0.0895x    
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+10.221.250.1 - - [23/Aug/2025 10:54:37] "[36mGET / HTTP/1.1[0m" 304 -
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/video-enhancer/src/routes/video.py", line 151, in process_video_background
+    processing_status[upload_id]['status'] = 'error'
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: '3fbc1a07-903d-45d1-a9ec-06c801e881f9'
+10.221.250.1 - - [23/Aug/2025 10:54:37] "[33mGET /api/video/status/3fbc1a07-903d-45d1-a9ec-06c801e881f9 HTTP/1.1[0m" 404 -
+10.221.250.1 - - [23/Aug/2025 10:54:38] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:54:38] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:54:38] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:54:40] "[36mGET / HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:54:41] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:54:41] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:55:13] "POST /api/video/upload HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:13] "POST /api/video/process/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:15] "POST /api/video/upload HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:15] "POST /api/video/process/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:16] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:18] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:18] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:20] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:20] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:22] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:22] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:24] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:24] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:27] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:27] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:28] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:28] "GET /api/video/status/dea4082d-0e9e-4e6c-beeb-c06a0b647101 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:30] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:32] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:34] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:36] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:38] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:40] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:42] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:43] "[36mGET / HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:55:44] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:55:44] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:55:44] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.221.250.1 - - [23/Aug/2025 10:55:44] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:46] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:48] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:50] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:52] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:54] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:56] "POST /api/video/upload HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:56] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:57] "POST /api/video/process/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:58] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:55:59] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:00] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:01] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:02] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:03] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:04] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:05] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:06] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:07] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:08] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:09] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:10] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:11] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:12] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:13] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:14] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:15] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:16] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:17] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:18] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:19] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:20] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:21] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:22] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:23] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:24] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:25] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:26] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:27] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:28] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:29] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:30] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:31] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:32] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:33] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:34] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:36] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:36] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:37] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:38] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:39] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:40] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:41] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:42] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:43] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:44] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:45] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:46] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:47] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:48] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:49] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:50] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:51] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:52] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:53] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:54] "GET /api/video/status/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:55] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:57] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:56:59] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:01] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:03] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:05] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:07] "GET /api/video/download/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:07] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:09] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:11] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:13] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:15] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:19] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:27] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:37] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:43] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:45] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:47] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:49] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:51] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:52] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:55] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:57] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:57:59] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:01] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:03] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:05] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:07] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:09] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:58:11] "GET /api/video/status/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:59:22] "DELETE /api/video/cleanup/c255b1ea-62a1-48d4-82d5-415f5c2a2159 HTTP/1.1" 200 -
+10.221.250.1 - - [23/Aug/2025 10:59:22] "DELETE /api/video/cleanup/5ffaa746-5714-4899-8ea0-fb9ae97399f0 HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:01:45] "[36mGET / HTTP/1.1[0m" 304 -
+10.30.182.1 - - [23/Aug/2025 11:01:46] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.30.182.1 - - [23/Aug/2025 11:01:46] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.30.182.1 - - [23/Aug/2025 11:05:08] "[35m[1mGET /robots.txt HTTP/1.1[0m" 206 -
+10.30.182.1 - - [23/Aug/2025 11:05:08] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:05:11] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:05:12] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:05:12] "GET /styles.css HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:05:12] "GET /script.js HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:05:17] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:57] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:57] "GET / HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:58] "GET /styles.css HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:58] "GET /script.js HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:58] "GET /script.js HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:58] "GET /styles.css HTTP/1.1" 200 -
+10.30.182.1 - - [23/Aug/2025 11:12:59] "GET /favicon.ico HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:18:27] "[36mGET / HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:27] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:27] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:43] "GET / HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:18:43] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:43] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:44] "GET /favicon.ico HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:18:54] "[36mGET / HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:55] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:18:55] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.1.202.1 - - [23/Aug/2025 11:20:49] "POST /api/video/upload HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:20:49] "POST /api/video/process/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:20:52] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:20:54] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:20:56] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:20:58] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:00] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:02] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:04] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:06] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:08] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:10] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:12] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:14] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:16] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:18] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:20] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:22] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:24] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:26] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:28] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:30] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:32] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:34] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:36] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:38] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:40] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:42] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:44] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:46] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:48] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:50] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:52] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:54] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:56] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:21:58] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:00] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:02] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:04] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:06] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:08] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:10] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:12] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:14] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:16] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:18] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:20] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:22] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:24] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:26] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:28] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:30] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:32] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:34] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:36] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:38] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:40] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:42] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:44] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:46] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:48] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:50] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:52] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:54] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:56] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:22:58] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:00] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:02] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:04] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:06] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:08] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:10] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:12] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:14] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:16] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:18] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:20] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:22] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:24] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:26] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:28] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:30] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:32] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:34] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:36] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:38] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:40] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:42] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:44] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:46] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:48] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:50] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:52] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:54] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:56] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:23:58] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:00] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:02] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:04] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:06] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:08] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:10] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:12] "GET /api/video/status/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:18] "GET /api/video/download/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:24:18] "[35m[1mGET /api/video/download/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1[0m" 206 -
+10.1.202.1 - - [23/Aug/2025 11:24:18] "[35m[1mGET /api/video/download/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1[0m" 206 -
+10.1.202.1 - - [23/Aug/2025 11:27:44] "DELETE /api/video/cleanup/77dcbfeb-78f2-4997-a7f8-e5e3fed93885 HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:11] "POST /api/video/upload HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:11] "POST /api/video/process/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:14] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:16] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:18] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:20] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:22] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:24] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:26] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:28] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:30] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:32] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:34] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:36] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:38] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:40] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:42] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:44] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:46] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:48] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:50] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:52] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:54] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:56] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:29:59] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:01] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:03] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:05] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:07] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:08] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:10] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:12] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:14] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:16] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:18] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:20] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:22] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.1.202.1 - - [23/Aug/2025 11:30:24] "GET /api/video/status/35c54514-f8a5-48c1-9f4a-fd64192cda6c HTTP/1.1" 200 -
+10.157.190.1 - - [23/Aug/2025 22:32:11] "[36mGET / HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:32:12] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:32:12] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:35:20] "[36mGET / HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:35:20] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:35:20] "[36mGET /script.js HTTP/1.1[0m" 304 -
+10.157.190.1 - - [23/Aug/2025 22:35:21] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+10.251.176.1 - - [24/Aug/2025 01:47:58] "GET / HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:47:58] "GET /styles.css HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:47:58] "GET /script.js HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:32] "POST /api/video/upload HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:32] "POST /api/video/process/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:35] "GET /api/video/status/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:39] "GET /api/video/status/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:39] "GET /api/video/status/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:40] "GET /api/video/status/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
+10.251.176.1 - - [24/Aug/2025 01:48:41] "DELETE /api/video/cleanup/17f560ba-f170-40f6-808a-44efe62b7ab8 HTTP/1.1" 200 -
